@@ -10,8 +10,9 @@ public class TempConv {
         double fahrenheit;
         double celsius;
         Scanner in;
-
+//      java.util.Scanner in;
         in = new Scanner(System.in);
+//      in = new java.util.Scanner(System.in);
         System.out.println("Enter the temperature in F: ");
         fahrenheit = in.nextDouble();
 

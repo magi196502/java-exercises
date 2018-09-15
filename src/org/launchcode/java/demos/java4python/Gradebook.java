@@ -27,6 +27,7 @@ public class Gradebook {
 
         } while(!newStudent.equals(""));
 
+
         // Get student grades
         for (String student : students) {
             System.out.print("Grade for " + student + ": ");
