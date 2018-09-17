@@ -35,6 +35,7 @@ public class CountingCharacters {
                 // Get the character count by calling the getCharCount method
                 charCount = getCharCount(theString, theChar);
 
+                // Write key,value pair to the HashMap
                 charCounts.put(theChar, charCount);
             }
 
